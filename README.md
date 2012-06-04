@@ -1,11 +1,11 @@
-== SALT2 PYTHON MODULE ==
+## SALT2 PYTHON MODULE ##
 
 Python module interface to the SALT2 supernova lightcurve templates
 
 Stephen Bailey
 Summer 2012
 
-== OVERVIEW ==
+## OVERVIEW ##
 
 This code provides a python interface to the salt2 supernovae timeseries
 model.  Note that this does not run salt2 or directly perform SN lightcurve
@@ -19,13 +19,13 @@ accuracy of the fit was driven by the salt2 error model and further work
 would be needed to make that more accurate in order to make these fits
 quantitatively useful.
 
-== INSTALLATION ==
+## INSTALLATION ##
 
 Add the salt2/python/ directory to your PYTHONPATH, or otherwise move
 salt2/python/salt2.py into another directory which is in your PYTHONPATH.
 If someone wants to contribute a disutils setup.py, that would be welcome.
 
-== USAGE ==
+## USAGE ##
 
 Create a Salt2Model model object, using whatever the latest salt2* model
 files are available in $PYTHONPATH:
@@ -58,7 +58,7 @@ Get the model error or variance=error**2:
     err = m.error(phase=0.0)
     var = m.variance(phase=0.0, x1=0.5)
     
-== SALT2 MODEL FILES ==
+## SALT2 MODEL FILES ##
 
 For convenience, this package comes bundled with salt2 model templates
 originally available from Julien Guy at:
