@@ -1,0 +1,16 @@
+Data needed by SALT2 model
+-----------------------------------
+
+salt2_template_0.dat	template of average component
+salt2_template_1.dat	template of first component
+
+
+salt2_lc_dispersion_template_0.dat	template of additional dispersion for comp. 0 (fraction of model)	
+salt2_lc_dispersion_template_1.dat	template of additional dispersion for comp. 1 (fraction of model)
+salt2_color_correction.dat		model of color/extinction law
+salt2_color_dispersion.dat		remaining color dispersion
+
+salt2_spec_dispersion_template_0.dat	template of additional dispersion for comp. 0 for spectra	
+salt2_spec_dispersion_template_1.dat	template of additional dispersion for comp. 1 for spectra
+
+
